@@ -36,10 +36,10 @@ import tarfile
 #
 # Depack the source archive.
 #
-tSrcArchive = tarfile.open('argparse-0.5.0.tar.gz', 'r')
+tSrcArchive = tarfile.open('argparse-0.6.0.tar.gz', 'r')
 tSrcArchive.extractall('targets/depack')
 tSrcArchive.close()
-strDepackPath = 'targets/depack/argparse-0.5.0/'
+strDepackPath = 'targets/depack/argparse-0.6.0/'
 
 #----------------------------------------------------------------------------
 #
